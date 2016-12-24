@@ -1,0 +1,135 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, 
+dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, 
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, 
+legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, 
+nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+body {
+	line-height: 1;
+	background-image: url('bg.jpg') !important;
+	background-color: #fff !important;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+html {
+	overflow-y: scroll;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+article, aside, details, figcaption, figure, footer,
+header, hgroup, nav, section {
+	display: block;
+}
+
+img {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#main {
+    max-width: 724px;
+    margin-top: 48px !important;
+    margin-bottom: 24px !important;
+    padding: 0 24px 24px 24px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+
+#main h2 {
+    font-size: 22px;
+}
+
+#header {
+    padding: 24px;
+}
+
+#header #header-title {
+	font-size: 20px !important;
+}
+
+#header #header-desc {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#content {
+    padding: 0px 24px 0px 24px;
+}
+
+#content h1, #content h2 {
+    font-weight: 800;
+}
+
+#content .section-header {
+    margin-bottom: 24px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#content .section {
+    margin-bottom: 36px;
+}
+
+#content .section p {
+    font-size: 14px;
+    line-height: 24px;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+
+.map #map-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery {
+
+}
+
+.gallery h4 {
+    margin: 20px 0;
+}
+
+.gallery img {
+    margin: 2px;
+    border: 1px solid #ddd;
+    width: 216px;
+    height: 144px;
+}
